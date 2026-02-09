@@ -270,7 +270,7 @@ label {
   display: block;
   margin-top: 15px;
   margin-bottom: 5px;
-  color: #2c3e50;
+  color: #2c3e40;
   font-weight: 600;
   font-size: 0.95rem;
 }
@@ -280,7 +280,7 @@ textarea {
   width: 100%;
   padding: 12px;
   margin: 5px 0 15px 0;
-  background-color: #f8f9fa;
+  background-color: #f8f9fc;
   border: 2px solid #e0e0e0;
   border-radius: 6px;
   font-family: "Open Sans", sans-serif;
@@ -292,7 +292,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: #3498df;
   background-color: white;
 }
 
@@ -312,13 +312,13 @@ button {
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transition: transform 0.15s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
 }
 
 button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 5px 10px rgba(52, 152, 219, 0.4);
 }
 
 button:active {
